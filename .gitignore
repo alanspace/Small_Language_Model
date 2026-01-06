@@ -27,3 +27,15 @@ slm
 .idea/
 *.swp
 *~
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# macOS system files
+.DS_Store
