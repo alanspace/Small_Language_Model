@@ -1,0 +1,3 @@
+/Users/daai6ga1hou2/Documents/GitHub/Project/Programming_Techniques_Lab_5_Small_Language_Model/build/CMakeFiles/my_cpp_model.dir
+/Users/daai6ga1hou2/Documents/GitHub/Project/Programming_Techniques_Lab_5_Small_Language_Model/build/CMakeFiles/edit_cache.dir
+/Users/daai6ga1hou2/Documents/GitHub/Project/Programming_Techniques_Lab_5_Small_Language_Model/build/CMakeFiles/rebuild_cache.dir
