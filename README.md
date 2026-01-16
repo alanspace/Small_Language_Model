@@ -35,6 +35,7 @@ This program implements a statistical language model that:
 - ✅ **Nested Hash Maps** - O(1) expected-time probability lookups
 - ✅ **Zero Raw Pointers** - Full STL memory management
 - ✅ **High-Quality RNG** - Mersenne Twister (std::mt19937)
+- ✅ **Robust Error Handling** - Graceful handling of edge cases (empty input, dead ends)
 
 ---
 
@@ -169,6 +170,7 @@ KGramStats
 - Samples initial k-gram weighted by frequency
 - Iteratively samples next character given current k-gram
 - Updates k-gram via sliding window (shift + append)
+- **Robustness:** Automatically handles "dead ends" (unseen contexts) by restarting from a random k-gram
 - **Time:** O(m·k), **Space:** O(k)
 
 ---
